@@ -4,7 +4,7 @@ Github の自動テストを動作させるサンプル
 
 ## バッチ
 
-[![Actions Status](https://github.com/takuya/github-action-sample-testing-code/workflows/test-code-action/badge.svg)](https://github.com/takuya/github-action-sample-testing-code//actions)
+[![Actions Status](https://github.com/takuya/github-action-sample-testing-code/workflows/build%20and%20test/badge.svg)](https://github.com/takuya/github-action-sample-testing-code/actions)
 
 ## 参考サイト
 
