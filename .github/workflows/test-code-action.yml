@@ -20,6 +20,6 @@ jobs:
       - name : run
         shell : bash
         run : |
-          vendor/phpunit
+          vendor/bin/phpunit
           
 
