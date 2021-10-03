@@ -19,5 +19,9 @@ jobs:
           pwd
           ls -alt
           env
+          ls -l /usr/bin
+          ls -l /bin
+          ls -l /usr/local/bin
+          which php
           
 
