@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - name: composer install
+        shell: bash
+        run : |
+          composer install  -q --no-ansi --no-interaction --no-scripts --no-progress
       - name : run
         shell : bash
         run : |
@@ -19,9 +23,7 @@ jobs:
           pwd
           ls -alt
           env
-          ls -l /usr/bin
-          ls -l /bin
-          ls -l /usr/local/bin
           which php
+          php -v
           
 
