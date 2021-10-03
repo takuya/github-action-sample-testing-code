@@ -1,0 +1,14 @@
+{
+    "name": "takuya/github-action-sample-testing-code",
+    "description": "githubでTestを動かすサンプル",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Takuya\\GithubActionSampleTestingCode\\": "src/"
+        }
+    }
+}
