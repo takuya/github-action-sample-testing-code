@@ -10,13 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
       - name : run
         shell : bash
         run : |
           whoami
           pwd
+          ls -alt
           env
           
 
