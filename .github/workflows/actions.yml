@@ -16,14 +16,10 @@ jobs:
         shell: bash
         run : |
           composer install  -q --no-ansi --no-interaction --no-scripts --no-progress
+          composer dump-autoload
       - name : run
         shell : bash
         run : |
-          whoami
-          pwd
-          ls -alt
-          env
-          which php
-          php -v
+          vendor/phpunit
           
 

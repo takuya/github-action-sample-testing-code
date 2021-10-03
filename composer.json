@@ -10,5 +10,11 @@
         "psr-4": {
             "Takuya\\GithubActionSampleTestingCode\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
     }
+
 }
